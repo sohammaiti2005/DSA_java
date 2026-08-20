@@ -103,6 +103,57 @@ public class patterns {
 
             
         }
+    public static void solid(int n){
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=n-i;j++){
+                System.out.print("  ");
+            }
+            for(int j=1;j<=n;j++){
+                System.out.print("* ");
+            }
+            System.out.println();
+
+        }
+    }
+    public static void Hollo_Rom(int n){
+        for(int i =1;i<=n;i++){
+            for(int c=1;c<=n-i;c++){
+                System.out.print(" ");
+
+            }
+            for(int c=1;c<=n;c++){
+                if(i==1||i==n||c==1||c==n){
+                    System.out.print("*");
+
+                }else{
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
+    public static void diamond(int n){
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=n-i;j++){
+                System.out.print(" ");
+            }
+            for(int j=1;j<=2*i-1;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+
+        }
+        for(int i=n-1;i>=1;i--){
+            for(int j=1;j<=n-i;j++){
+                System.out.print(" ");
+            }
+            for(int j=1;j<=2*i-1;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+
+        }
+    }
 
     
     public static void main(String args[]){
@@ -110,7 +161,10 @@ public class patterns {
         // inver(4);
         // floydtri(5);
         // tri(5);
-        butterfly(4);
+        //  butterfly(4);
+        // solid(5);
+        // Hollo_Rom(5);
+        diamond(4);
 
     }
     
