@@ -27,6 +27,10 @@ public class search {
         }
         return large;
     }
+    public static int kk(String alpha[],String target){
+        
+    }
+
     public static void main (String args[]){
         int numbers[]={2,4,6,3,5};
         Scanner sc=new Scanner(System.in);
@@ -41,6 +45,8 @@ public class search {
         System.out.println();
         int number=largest(numbers);
         System.out.print("The largest in the list is : "+number);
+        String alpha[]={"apple","banana","mango"};
+        String target="banana";
     }
     
 }

@@ -1,0 +1,1 @@
+ // public static maxmintotal (int) {
