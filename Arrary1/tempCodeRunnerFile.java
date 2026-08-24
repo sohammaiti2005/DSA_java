@@ -1,1 +1,1 @@
- // public static maxmintotal (int) {
+System.out.println(arr[1]);
